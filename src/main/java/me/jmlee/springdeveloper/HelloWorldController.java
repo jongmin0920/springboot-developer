@@ -19,9 +19,7 @@ public class HelloWorldController {
     }
 
     @PostMapping ("/test")
-    public String PostTest() {
-        return "Post Test response!!!!!!!";
-    }
+    public String PostTest() { return "Post Test response!!!!!!!"; }
 
     @DeleteMapping ("/test")
     public String DeleteTest() {
