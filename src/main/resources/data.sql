@@ -1,2 +1,3 @@
-INSERT INTO member (name, email) VALUES ('홍길동', 'hong@test.com');
-INSERT INTO member (name, email) VALUES ('김철수', 'kim@test.com');
+INSERT INTO article (title, content) VALUES ('제목 1', '내용 1');
+INSERT INTO article (title, content) VALUES ('제목 2', '내용 2');
+INSERT INTO article (title, content) VALUES ('제목 3', '내용 3');
